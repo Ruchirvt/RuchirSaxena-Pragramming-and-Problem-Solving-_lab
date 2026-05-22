@@ -1,0 +1,12 @@
+# Read input string
+text = input()
+
+count = 0
+vowels = "aeiouAEIOU"
+
+for ch in text:
+	if ch in vowels:
+		count += 1
+
+# Print result
+print(count)
